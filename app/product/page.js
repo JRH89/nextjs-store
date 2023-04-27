@@ -15,7 +15,7 @@ export default function ProductPage(props) {
     }
 
     function handleAddToCart() {
-        console.log('PRICE ID: ', price_id)
+        
         const newItem = {
             quantity: 1,
             price_id,
