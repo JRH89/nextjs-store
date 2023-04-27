@@ -23,7 +23,7 @@ export default async function Home() {
       {products.map((product, productIndex) => {
         return (
 
-          <ProductCard keys={productIndex} product={product} />
+          <ProductCard key={productIndex} product={product} />
         )
         
       })}
