@@ -1,11 +1,13 @@
 "use client"
 import React from "react"
+import ReactDom from 'react-dom'
 
 export default function Modal() {
-  return (
+  return ReactDom.createPortal (
     <div>
-      
-    </div>
+      Modal
+    </div>,
+    document.getElementById('portal')
   )
 }
 
