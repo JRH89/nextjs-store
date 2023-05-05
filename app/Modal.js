@@ -36,7 +36,7 @@ export default function Modal() {
                 <i onClick={closeModal} className="fa-solid cursor-pointer hover:opacity-60 fa-xmark duration-300 hover:rotate-90"></i>
                 <div className="absolute bottom-0 left-1/2 -translate-x-1/2 h-[1px] bg-slate-300 w-2/3"></div>
         </div>
-        <div className="p-4 overflow-scroll flex-1 flex flex-col gap-4">
+        <div className="p-4 overflow-scroll flex flex-col gap-4">
           {cartItems.length === 0 ? (
             <p>There is nothing in your cart...</p>
           ) : (
