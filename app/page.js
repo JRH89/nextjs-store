@@ -1,7 +1,5 @@
-import Image from 'next/image'
 import Stripe from 'stripe'
 import ProductCard from './ProductCard'
-
 
 async function getStripeProducts() {
   const stripe = new Stripe(process.env.STRIPE_SECRET ?? '', {
@@ -25,7 +23,6 @@ export default async function Home() {
 
           <ProductCard key={productIndex} product={product} />
         )
-        
       })}
     </div>  
     </main>
