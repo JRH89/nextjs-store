@@ -25,7 +25,6 @@ export default function ProductPage(props) {
         addItemToCart({ newItem })
     }
 
-
     return (
         <div className="flex flex-col p-4">
             <div className="grid grid-cols-1 md:grid-cols-2 w-full max-w-[1000px] mx-auto">
