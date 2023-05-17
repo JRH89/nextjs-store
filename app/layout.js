@@ -16,11 +16,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta charSet="UTF-8" />
-        <meta property="og:url" content="https://nextjs-store-chi.vercel.app/" />
+        <meta property="og:url" content="https://next-jewelry.vercel.app/" />
         <meta property="og:title" content="Jewelry Store" />
         <meta property="og:description" content="E-commerce app made with NextJS 13, TailwindCSS, Stripe, and Zustand" />
         <meta property="og:image" content="jewelry-cover.png" />
-        <meta property="url" content="https://nextjs-store-chi.vercel.app/" />
+        <meta property="url" content="https://next-jewelry.vercel.app/" />
         <meta property="title" content="Jewelry Store" />
         <meta property="description" content="E-commerce app made with NextJS 13, TailwindCSS, Stripe, and Zustand" />
         <meta property="image" content="jewelry-cover.png" />
