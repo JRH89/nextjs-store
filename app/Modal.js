@@ -33,7 +33,7 @@ export default function Modal() {
         <div className="flex flex-col bg-white absolute right-0 top-0 h-screen shadow-lg w-screen sm:w-96 max-w-screen gap-4">
             <div className="flex items-center justify-between text-xl relative p-6">
                 <h1>Cart</h1>
-                <i onClick={closeModal} className="fa-solid cursor-pointer hover:opacity-60 fa-xmark duration-300 hover:rotate-90"></i>
+                <i onClick={closeModal} className="text-slate-900 fa-solid cursor-pointer hover:opacity-60 fa-xmark duration-300 hover:rotate-90"></i>
                 <div className="absolute bottom-0 left-1/2 -translate-x-1/2 h-[1px] bg-slate-300 w-2/3"></div>
         </div>
         <div className="p-4 overflow-scroll flex flex-col gap-4">
@@ -50,14 +50,14 @@ export default function Modal() {
                       </h2>
                       <p>${cartItem.cost / 100}</p>
                     </div>
-                      <p className="text-slate-600 text-sm">Quantity: 1</p>
+                      <p className="text-slate-900 text-sm">Quantity: 1</p>
                     </div>
                   )
                 })}
             </>
           )}
         </div>
-        <div onClick={checkout} className="border border-solid text-slate-700 text-xl m-4 p-6 uppercase grid place-items-center hover:opacity-60 cursor-pointer">Checkout</div>
+        <div onClick={checkout} className="border border-slate-900 border-solid text-slate-900 text-xl m-4 p-6 uppercase grid place-items-center hover:opacity-60 cursor-pointer">Checkout</div>
       </div>
     </div>,
     document.getElementById('portal')
