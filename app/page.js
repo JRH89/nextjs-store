@@ -16,8 +16,8 @@ export default async function Home() {
   const products = await getStripeProducts()
   console.log(products)
 
-  // Filter out archived products
-  const filteredProducts = products.filter(product => !product.archived)
+  // Filter out inactive products
+  const filteredProducts = products.filter(product => product.product.active)
 
   return (
     <main className='p-4 flex flex-col'>
