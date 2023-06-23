@@ -32,14 +32,10 @@ export default function RootLayout({ children }) {
         <div className='flex-1'>
           {children}
         </div>
-        <footer className='flex items-center flex-wrap justify-center border-t border-solid border-slate-900 p-4 md:p-8 gap-4'>
-          <Link href={'https://have-mycard.vercel.app/api/3dhrOh3i'} target='_blank'>
-            <i className="fa-solid fa-envelope text-slate-900 hover:text-slate-500 cursor-pointer text-2xl sm:text-3xl md:text-4xl"></i>
-          </Link>
-          <Link href={'https://hooker-hill-studios.vercel.app'} target='_blank'>
-            <i className="fa-solid fa-house text-slate-900 hover:text-slate-500 cursor-pointer text-2xl sm:text-3xl md:text-4xl"></i>
-          </Link>
-          
+        <footer className='flex items-center justify-center border-t border-solid border-slate-900 p-4 md:p-8'>        
+          <Link className"text-slate-900 text-center text-xl hover:scale-90 hover:opacity-60 duration-300" href={'https://hooker-hill-studios.vercel.app'} target='_blank'>
+            Hooker Hill Studios
+          </Link>         
         </footer>
         <div id='portal'></div>
       </body>
