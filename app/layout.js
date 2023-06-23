@@ -19,11 +19,11 @@ export default function RootLayout({ children }) {
         <meta property="og:url" content="https://next-jewelry.vercel.app/" />
         <meta property="og:title" content="Jewelry & Gems" />
         <meta property="og:description" content="Silver jewelry and gemstone e-commerce website" />
-        <meta property="og:image" content="https://raw.githubusercontent.com/JRH89/nextjs-store/main/public/jewelry-cover.png" />
+        <meta property="og:image" content="https://next-jewelry.vercel.app/jewelry-cover.png" />
         <meta property="url" content="https://next-jewelry.vercel.app/" />
         <meta property="title" content="Jewelry & Gems" />
         <meta property="description" content="Silver jewelry and gemstone e-commerce website" />
-        <meta property="image" content="https://raw.githubusercontent.com/JRH89/nextjs-store/main/public/jewelry-cover.png" />
+        <meta property="image" content="https://next-jewelry.vercel.app/jewelry-cover.png" />
         <link type="image/x-icon" rel="shortcut icon" href="favicon.ico" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
       </head>
@@ -32,16 +32,10 @@ export default function RootLayout({ children }) {
         <div className='flex-1'>
           {children}
         </div>
-        <footer className='flex items-center flex-wrap justify-center border-t border-solid border-slate-900 p-4 md:p-8 gap-4'>
-          <Link href={'https://next-mycard.vercel.app/Dynamic?name=Jared%20Hooker&job=Javascript%20Developer&phone=19096473928&email=gamedevjared%40gmail.com&social1=https%3A%2F%2Flinkedin.com%2Fin%2Fjaredhooker&social2=https%3A%2F%2Fgithub.com%2FJRH89&social3=https%3A%2F%2Fjaredsportfolio.netlify.app&social4=https%3A%2F%2Fplay.google.com%2Fstore%2Fsearch%3Fq%3Dhooker%2520hill%2520studios%26c%3Dapps&social1Label=LinkedIN&social2Label=Github&social3Label=Portfolio&social4Label=Google%20Play'} target='_blank'>
-            <i className="fa-solid fa-envelope text-slate-900 hover:text-slate-500 cursor-pointer text-2xl sm:text-3xl md:text-4xl"></i>
-          </Link>
-          <Link href={'https://jaredsportfolio.netlify.app'} target='_blank'>
-            <i className="fa-solid fa-house text-slate-900 hover:text-slate-500 cursor-pointer text-2xl sm:text-3xl md:text-4xl"></i>
-          </Link>
-          <Link href={'https://linkedin.com/in/jaredhooker'} target='_blank'>
-            <i className="fa-brands fa-linkedin text-slate-900 hover:text-slate-500 cursor-pointer text-2xl sm:text-3xl md:text-4xl"></i>
-          </Link>
+        <footer className='flex items-center justify-center border-t border-solid border-slate-900 p-4 md:p-8'>        
+          <Link className="text-slate-900 text-center text-xl font-medium hover:scale-90 hover:opacity-60 duration-300" href={'https://hooker-hill-studios.vercel.app'} target='_blank'>
+            Hooker Hill Studios
+          </Link>         
         </footer>
         <div id='portal'></div>
       </body>
