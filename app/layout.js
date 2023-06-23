@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
           {children}
         </div>
         <footer className='flex items-center justify-center border-t border-solid border-slate-900 p-4 md:p-8'>        
-          <Link className"text-slate-900 text-center text-xl hover:scale-90 hover:opacity-60 duration-300" href={'https://hooker-hill-studios.vercel.app'} target='_blank'>
+          <Link className="text-slate-900 text-center text-xl font-medium hover:scale-90 hover:opacity-60 duration-300" href={'https://hooker-hill-studios.vercel.app'} target='_blank'>
             Hooker Hill Studios
           </Link>         
         </footer>
