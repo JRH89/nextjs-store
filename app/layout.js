@@ -3,8 +3,8 @@ import Link from 'next/link'
 import Header from './Header'
 
 export const metadata = {
-  title: 'Jewelry By Jared',
-  description: 'Handmade silver pendants and rings',
+  title: 'Jewelry & Gems',
+  description: 'Handmade silver pendants, rings, gems, and more',
 }
 
 import { Inter } from 'next/font/google'
@@ -32,10 +32,14 @@ export default function RootLayout({ children }) {
         <div className='flex-1'>
           {children}
         </div>
-        <footer className='flex items-center justify-center border-t border-solid border-slate-900 p-4'>
-          <Link className="text-slate-900 text-center text-xl font-medium hover:scale-90 hover:opacity-60 duration-300" href={'https://hooker-hill-studios.vercel.app'} target='_blank'>
-            Hooker Hill Studios
+        <footer className='flex items-center justify-center gap-10 border-t border-solid border-slate-900 p-2'>
+          <Link className="text-slate-900 text-center text-xl md:text-2xl font-medium hover:scale-90 hover:opacity-60 duration-300" href={'mailto:hookerhillstudios@gmail.com'} target='_blank'>
+            <i className='fa fa-envelope'></i>
           </Link>
+          <Link className="text-slate-900 text-center text-xl md:text-2xl font-medium hover:scale-90 hover:opacity-60 duration-300" href={'https://hooker-hill-studios.vercel.app'} target='_blank'>
+            <i className='fa fa-home'></i>
+          </Link>
+
         </footer>
         <div id='portal'></div>
       </body>
