@@ -57,7 +57,7 @@ export default function Modal() {
             </>
           )}
         </div>
-        <div onClick={checkout} className="border border-slate-900 border-solid text-slate-900 text-xl m-4 p-6 uppercase grid place-items-center hover:opacity-60 cursor-pointer">Checkout</div>
+        <div onClick={checkout} className="border border-slate-900 border-solid text-slate-900 text-xl m-4 p-4 mr-5 uppercase grid place-items-center justify-center  hover:opacity-60 cursor-pointer">Checkout</div>
       </div>
     </div>,
     document.getElementById('portal')
