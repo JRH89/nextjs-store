@@ -40,7 +40,7 @@ function LegalNotice() {
 
 						<h2 className="text-xl font-bold mb-4">Contact Information</h2>
 						<p className="mb-4">
-							If you have any questions or concerns about our payment processing or this legal notice, please contact us at <a href="mailto:hooker-hill-studios@gmail.com" className="text-blue-500">hooker-hill-studios@gmail.com</a>.
+							If you have any questions or concerns about our payment processing or this legal notice, please contact us at <a href="mailto: thegemlins@gmail.com@gmail.com" className="text-blue-500">thegemlins@gmail.com@gmail.com</a>.
 						</p>
 
 						<h2 className="text-xl font-bold mb-4">Effective Date and Updates</h2>
