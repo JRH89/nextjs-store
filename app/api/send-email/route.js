@@ -1,5 +1,8 @@
 export async function POST(request) {
-	const { name, message, email } = request.body
+	const { name, message, email } = await request.json()
+	console.log('Name:', name)
+	console.log('Email:', email)
+	console.log('Message:', message)
 
 	const sgMail = require('@sendgrid/mail')
 	sgMail.setApiKey(process.env.SENDGRID_API_KEY)
