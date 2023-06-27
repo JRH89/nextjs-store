@@ -4,11 +4,11 @@ import Head from 'next/head'
 function LegalNotice() {
 	return (
 		<>
-			<div class="bg-gray-100">
+			<div class="bg-gray-100 text-slate-900">
 				<div class="container mx-auto py-8">
-					<h1 class="text-3xl font-bold mb-8">Secure Payment Processing Legal Notice</h1>
+					<h1 class="text-xl ml-2 sm:text-2xl font-bold mb-8">Secure Payment Processing Legal Notice</h1>
 
-					<div class="bg-white p-6 rounded-lg shadow-lg">
+					<div class="bg-white p-6 m-2 shadow-neutral-950 shadow-lg">
 						<h2 class="text-xl font-bold mb-4">Security Measures</h2>
 						<p class="mb-4">
 							Stripe employs robust security measures to protect your sensitive information and payment details. These measures include advanced encryption, tokenization, and compliance with industry-standard security protocols.
