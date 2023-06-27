@@ -72,12 +72,12 @@ const AboutPage = () => {
 
 	return (
 
-		<div className="text-slate-900 container mx-auto py-8 select-none">
+		<div className="text-slate-900 flex flex-col mx-auto container max-w-[900px] py-8 select-none">
 			<ToastContainer />
 			<h1 className="text-2xl sm:text-3xl pl-4 sm:ml-0 font-bold mb-8 text-center">
 				About the Artist
 			</h1>
-			<div className="bg-white p-6  shadow-lg shadow-neutral-950  mb-8">
+			<div className="bg-white p-6 shadow-lg shadow-neutral-950 mx-2 mb-8">
 				<div className="flex items-center justify-center">
 					<Image
 						height={200}
@@ -137,7 +137,7 @@ const AboutPage = () => {
 
 				</form> */}
 
-			<div className="bg-white p-6 shadow-lg shadow-neutral-950 mb-8 flex flex-col justify-center">
+			<div className="bg-white p-6 shadow-lg shadow-neutral-950 mb-8 flex flex-col justify-center mx-2">
 				<h2 className="text-center text-xl font-bold mb-8">Jewelry Gallery</h2>
 				<div className="relative flex justify-center mb-8">
 					<button
@@ -190,7 +190,7 @@ const AboutPage = () => {
 				</div>
 
 			</div>
-			<div className="bg-white p-6  shadow-lg shadow-neutral-950">
+			<div className="bg-white p-6 mx-2 shadow-lg shadow-neutral-950">
 				<h2 className="text-xl font-bold mb-4 text-center">Custom Jewelry Requests</h2>
 				<p className="mb-4">
 					If you have a specific design in mind or would like a personalized piece, please feel free to reach out at: <Link className='text-sky-600' href='mailto:thegemlins@gmail.com'>thegemlins@gmail.com</Link>, and we will be in touch with you shortly.
