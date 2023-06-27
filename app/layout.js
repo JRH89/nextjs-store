@@ -33,13 +33,13 @@ export default function RootLayout({ children }) {
           {children}
         </div>
         <footer className='flex items-center justify-center gap-10 border-t border-solid border-slate-900 p-2'>
-          <Link className="text-slate-900 text-center text-xl md:text-2xl font-medium hover:scale-90 hover:opacity-60 duration-300" href={'mailto:hookerhillstudios@gmail.com'} target='_blank'>
+          <Link passHref className="text-slate-900 text-center text-xl md:text-2xl font-medium hover:scale-90 hover:opacity-60 duration-300" href={'mailto:hookerhillstudios@gmail.com'} target='_blank'>
             <i className='fa fa-envelope'></i>
           </Link>
-          <Link className="text-slate-900 text-center text-xl md:text-2xl font-medium hover:scale-90 hover:opacity-60 duration-300" href={'/About'}>
+          <Link passHref className="text-slate-900 text-center text-xl md:text-2xl font-medium hover:scale-90 hover:opacity-60 duration-300" href={'/About'}>
             <i className='fa fa-circle-info'></i>
           </Link>
-          <Link className="text-slate-900 text-center text-xl md:text-2xl font-medium hover:scale-90 hover:opacity-60 duration-300" href={'/LegalNotice'}>
+          <Link passHref className="text-slate-900 text-center text-xl md:text-2xl font-medium hover:scale-90 hover:opacity-60 duration-300" href='/LegalNotice'>
             <i className='fa fa-legal'></i>
           </Link>
         </footer>

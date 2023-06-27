@@ -11,6 +11,12 @@ export default function ProductCard(props) {
     const setProduct = useCart(state => state.setProduct)
 
     const router = useRouter()
+    function truncateDescription(text, maxLength) {
+        if (text.length <= maxLength) {
+            return text
+        }
+        return text.slice(0, maxLength) + "..."
+    }
 
 
     function onProductClick() {
@@ -26,15 +32,15 @@ export default function ProductCard(props) {
     }
 
     return (
-        <div onClick={onProductClick} className="flex flex-col shadow-lg shadow-neutral-600 bg-white hover:shadow-xl hover:shadow-neutral-800 cursor-pointer">
+        <div onClick={onProductClick} className="flex flex-col shadow-lg shadow-neutral-950 bg-white hover:shadow-xl hover:shadow-neutral-800 cursor-pointer">
             <img src={productInfo.images[0]} alt={name} className="w-full h-full flex object-cover" />
 
             <div className="flex flex-col gap-2 p-4">
-                <div className="flex items-center justify-center justify-between">
+                <div className="flex items-center justify-between">
                     <h3>{name}</h3>
                     <p>${cost / 100}</p>
                 </div>
-                <p className="text-sm">{description}</p>
+                <p className="text-sm">{truncateDescription(description, 40)}</p>
             </div>
         </div>
     )
