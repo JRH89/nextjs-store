@@ -39,7 +39,9 @@ export default function RootLayout({ children }) {
           <Link className="text-slate-900 text-center text-xl md:text-2xl font-medium hover:scale-90 hover:opacity-60 duration-300" href={'https://hooker-hill-studios.vercel.app'} target='_blank'>
             <i className='fa fa-home'></i>
           </Link>
-
+          <Link className="text-slate-900 text-center text-xl md:text-2xl font-medium hover:scale-90 hover:opacity-60 duration-300" href={'/LegalNotice'}>
+            <i className='fa fa-legal'></i>
+          </Link>
         </footer>
         <div id='portal'></div>
       </body>
