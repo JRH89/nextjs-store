@@ -114,7 +114,7 @@ const AboutPage = () => {
 			<div className="bg-white p-6 mx-2 shadow-lg shadow-neutral-950">
 				<h2 className="text-xl font-bold mb-4 text-center">Custom Jewelry Requests</h2>
 				<p className="mb-4">
-					If you have a specific design in mind or would like a personalized piece, please feel free to reach via the form below:, and I will be in touch with you shortly.
+					If you have a specific design in mind or would like a personalized piece, please feel free to reach out via the form below:
 				</p>
 				<Message />
 			</div>
