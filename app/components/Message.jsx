@@ -15,7 +15,7 @@ export default function Message() {
 		const sanitizedName = DOMPurify.sanitize(name)
 		const sanitizedEmail = DOMPurify.sanitize(email)
 		const sanitizedMessage = DOMPurify.sanitize(message)
-		console.log(sanitizedName)
+
 		try {
 			const response = await fetch('/api/send-email', {
 				method: 'POST',
