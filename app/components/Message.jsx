@@ -105,7 +105,7 @@ export default function Message() {
 								placeholder="Your Message"
 							></textarea>
 						</div>
-						<button type="submit" className="bg-slate-900 hover:bg-sky-900 text-white py-2 px-4 ">Submit</button>
+						<button type="submit" className="bg-slate-900 hover:bg-sky-950 text-white py-2 px-4 ">Submit</button>
 
 					</form>
 				)}
